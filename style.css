@@ -1,0 +1,203 @@
+/* Designed by Kya / kya.nu */
+
+body
+{
+	color: #000;
+	text-align: justify;
+	font: 1em 'Josefin Sans', sans-serif, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	line-height: 1.9em;
+	margin: 0 auto;
+}
+
+a
+{
+	color: #8a8a8a;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #b0b0b0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Pacifico', cursive;
+}
+
+.wrap
+{
+	width: 80%;
+	margin: 2% auto;
+}
+
+/* Navigation */
+
+nav
+{
+	padding: 2% 0% 1% 0%;
+	margin: 0;
+	border-bottom: 5px solid #333;
+	overflow: hidden;
+	font-family: 'Pacifico', cursive;
+}
+
+nav ul, nav li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav .title a
+{
+	background: #000;
+	color: #fff;
+	padding: 2%;
+	margin: 0;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+nav li a
+{
+	font-size: 1.8em;
+	padding: 2%;
+	margin: 0;
+	color: #000;
+}
+
+nav li a:hover
+{
+	background: #000;
+	color: #fff;
+}
+
+/* Content */
+
+.content
+{
+	width: 100%;
+	margin: 2% auto;
+	clear: both;
+}
+
+.page
+{
+	width: 78%;
+	float: left;
+	margin-right: 2%;
+}
+
+.page a
+{
+	border-bottom: 1px dashed #b0b0b0;
+	text-decoration: underline;
+}
+
+/* Sidebar */
+
+.sidebar
+{
+	width: 20%;
+	float: right;
+}
+
+.sidebar h1
+{
+	font-size: 1.2em;
+	text-align: right;
+}
+
+/* Footer */
+
+.footer
+{
+	border-top: 1px solid #e6e7e7;
+	font-size: 0.8em;
+	padding: 1% 0 0 0;
+	margin: 2% auto;
+	color: #cecece;
+}
+
+/* Media */
+
+@media screen and (max-width:700px){
+
+	.wrap, .page, .sidebar
+	{
+		width: 96%;
+		padding: 2%;
+	}
+
+	nav li, .page, .sidebar
+	{
+		display: block;
+		float: none;
+	}
+
+	.sidebar
+	{
+		border-top: 1px solid #333;
+	}
+
+	nav li a
+	{
+		font-size: 1em;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav .title a
+	{
+		font-size: 1.5em;
+		color: #000;
+		background: none;
+		margin: 0;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width:450px){
+
+	.wrap, .page, .sidebar
+	{
+		width: 96%;
+		padding: 2%;
+	}
+
+	nav li, .page, .sidebar
+	{
+		display: block;
+		float: none;
+	}
+
+	.sidebar
+	{
+		border-top: 1px solid #333;
+	}
+
+	nav li a
+	{
+		font-size: 1em;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav .title a
+	{
+		font-size: 1.5em;
+		color: #000;
+		background: none;
+		margin: 0;
+		padding: 0;
+	}
+
+}
