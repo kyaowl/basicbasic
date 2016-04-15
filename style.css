@@ -36,6 +36,12 @@ h1, h2, h3, h4, h5, h6
 	margin: 2% auto;
 }
 
+.gridsym
+{
+	margin: 0;
+	padding: 0;
+}
+
 /* Navigation */
 
 nav
@@ -107,6 +113,12 @@ nav li a:hover
 {
 	width: 20%;
 	float: right;
+}
+
+.jdns
+{
+	margin: 0;
+	padding: 0;
 }
 
 .sidebar h1
